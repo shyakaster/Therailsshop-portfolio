@@ -1,21 +1,21 @@
 # Therailsshop portfolio codebase
 
-Things you may want to cover:
+> This is a Ruby on Rails 5 application that demonstrates how to build a portfolio
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+### Features
 
-* Database creation
+- Real time chat engine for comments.
+- blog
+- portfolio
+- Drag and Drop interface
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+    def test
+      puts "Here is my method statement"
+    end
+```
+```javascript
+   alert('HI there');
+```   
