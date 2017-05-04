@@ -1,8 +1,10 @@
 class PortfoliosController < ApplicationController
+	layout 'portfolio'
 	def index
 		@portfolio_items = Portfolio.all
 		# Not a good idea to put database queries into the controller
 		# @portfolio_items = Portfolio.where(subtitle: "AngularJS")
+		@page_title = " My Portfolios"
 	end
 	def angular_portfolio_items
 		@angular_portfolio_items = Portfolio.the_angular_items
@@ -31,6 +33,7 @@ class PortfoliosController < ApplicationController
 
 	def edit
 		@portfolio_item = Portfolio.find(params[:id])
+	  
 	end
 	def update
 		@portfolio_item = Portfolio.find(params[:id])
