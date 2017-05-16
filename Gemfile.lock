@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/shyakaster/Therailsshop_view_tool
+  revision: a13a22e05f5c1efeaf046fa227c54dc6751e4daa
+  specs:
+    Therailsshop_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -173,6 +179,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  Therailsshop_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   coffee-rails (~> 4.2)
   devise (~> 4.2, >= 4.2.1)
