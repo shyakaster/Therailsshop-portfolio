@@ -1,4 +1,5 @@
 @import "bootstrap";
+
 /*
  * Globals
  */
@@ -159,12 +160,22 @@ body {
     width: 55rem;
   }
 }
+
 /*
- * Custom styles
+ * Custom Styles
  */
- .card-block{
-   color: black;
- }
- .card-block{
-   height: 50%;
- }
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
+.register-text{
+  text-align: right;
+}
+.card-wrapper{
+  height: 75%;
+}
