@@ -3,7 +3,7 @@ class PortfoliosController < ApplicationController
 	layout 'portfolio'
 	access all: [:show, :index, :angular_portfolio_items], user: {except: [:destroy,:new,:create,:update, :edit]}, site_admin: :all
 	def index
-		@portfolio_items = Portfolio.all
+		@portfolio_items = Portfolio.by_position
 		# Not a good idea to put database queries into the controller
 		# @portfolio_items = Portfolio.where(subtitle: "AngularJS")
 		@page_title = " My Portfolios"
