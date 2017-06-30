@@ -1,13 +1,8 @@
-class CommentBroadcastJob < ApplicationJob
-  queue_as :default
+class Comment < ApplicationRecord
+  belongs_to :user
+  belongs_to :blog
 
-  def perform(comment)
-    ActionCable.server.broadcast "blogs_#{comment.blog.id}_channel", comment: render_comment(comment)
-  end
+  validates :content, presence: true, length: { minimum: 5, maximimum: 1000 }
 
-  private
-
-  def render_comment(comment)
-    CommentsController.render partial: 'comments/comment', locals: { comment: comment }
-  end
+  after_create_commit { CommentBroadcastJob.perform_later(self) }
 end
