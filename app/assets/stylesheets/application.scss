@@ -30,12 +30,23 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
 }
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -221,4 +232,44 @@ body {
 }
 .tech-news > .card{
   padding: 10px;
+}
+.app-card-about{
+  color: black;
+  text-align: justify;
+  // padding-left: 20px;
+}
+.app-card-about  p{
+  font-size: 16px;
+  // text-align: left;
+  padding-right: 20px;
+}
+.app-card-about a{
+  color: blue;
+}
+.app-card-about > .card{
+  // padding: 40px;
+}
+.profile-image{
+  border: 1px solid black;
+  height: 95%;
+}
+.app-card-contact{
+  color: black;
+  text-align: justify;
+}
+.app-card-contact > .card{
+  padding: 40px;
+}
+.app-card-contact a{
+  color: blue;
+}
+.card-block{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.skill{
+  // text-align: center;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
