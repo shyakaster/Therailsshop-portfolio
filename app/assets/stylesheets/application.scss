@@ -226,6 +226,14 @@ body {
   color: black;
   text-align: justify;
 }
+.app-card-about  p{
+  font-size: 16px;
+  // text-align: left;
+  padding-right: 20px;
+}
+.app-card-about a{
+  color: blue;
+}
 .app-card-about > .card{
   // padding: 40px;
 }
@@ -242,4 +250,8 @@ body {
 }
 .app-card-contact a{
   color: blue;
+}
+.card-block{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
