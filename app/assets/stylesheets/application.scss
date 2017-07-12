@@ -222,3 +222,24 @@ body {
 .tech-news > .card{
   padding: 10px;
 }
+.app-card-about{
+  color: black;
+  text-align: justify;
+}
+.app-card-about > .card{
+  // padding: 40px;
+}
+.profile-image{
+  border: 1px solid black;
+  height: 95%;
+}
+.app-card-contact{
+  color: black;
+  text-align: justify;
+}
+.app-card-contact > .card{
+  padding: 40px;
+}
+.app-card-contact a{
+  color: blue;
+}
