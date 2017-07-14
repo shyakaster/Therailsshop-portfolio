@@ -17,5 +17,6 @@
 .byebug_history
 # I dont want to show my secrets file
 /config/secrets.yml
-.vagrant
+/.vagrant
 ubuntu-yakkety-16.10-cloudimg-console.log
+/.env
