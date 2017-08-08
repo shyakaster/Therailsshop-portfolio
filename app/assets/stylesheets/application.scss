@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "gritter";
+@import "font-awesome";
 
 /*
  * Globals
@@ -234,9 +235,16 @@ h6, .h6 {
   padding: 10px;
 }
 .app-card-about{
+  padding-top: 40px;
+  margin: 120px 70px;;
   color: black;
   text-align: justify;
-  // padding-left: 20px;
+}
+.app-card-about span{
+  padding: 10px;
+}
+.app-card-about #about-me-social{
+  padding: 15px;
 }
 .app-card-about  p{
   font-size: 16px;
@@ -251,7 +259,6 @@ h6, .h6 {
 }
 .profile-image{
   border: 1px solid black;
-  height: 95%;
 }
 .app-card-contact{
   color: black;
