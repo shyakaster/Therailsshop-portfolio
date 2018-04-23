@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'figaro'
 
 group :development, :test do
   # gem 'pg'
@@ -46,5 +47,3 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'redcarpet', '~> 3.4'
-
-ruby "2.4.1"

@@ -20,3 +20,6 @@
 /.vagrant
 ubuntu-yakkety-16.10-cloudimg-console.log
 /.env
+
+# Ignore application configuration
+/config/application.yml
