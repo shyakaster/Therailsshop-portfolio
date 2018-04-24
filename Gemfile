@@ -7,7 +7,7 @@ end
 gem 'rails', '~> 5.0.1'
 group :production do
   gem 'rails_12factor', '~> 0.0.3'
-  gem 'pg'
+  gem 'pg', '~> 0.20'
 end
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
@@ -47,3 +47,4 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'redcarpet', '~> 3.4'
+
